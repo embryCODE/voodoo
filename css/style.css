@@ -262,7 +262,7 @@ h2.heading-title{
 }
 
 .banner-content{
-	padding: 30px 0px 400px 0px;
+	padding: 30px 0px 420px 0px;
 }
 
 h2.title{
@@ -349,111 +349,6 @@ h2.title{
 }
 
 
-/*==================================================
-	section-overview
-=====================================================*/
-
-#section-overview{
-	padding: 75px 0px 80px;
-}
-.overview-box{}
-.overview-box h3{
-	margin-bottom: 35px;
-}
-
-
-/*==================================================
-	section-profile
-=====================================================*/
-#section-skill .btn-default.featured{
-	padding: 20px 36px!important;
-}
-#section-profile{
-	background: #f2f2f1;
-}
-
-.profile-bg {
-    background-color: transparent;
-    background: url("../images/profile.jpg");
-    position: absolute;
-    background-clip: border-box;
-    background-attachment: scroll;
-    background-origin: padding-box;
-    background-repeat: no-repeat;
-    left: 0px;
-    top: 0px;
-    height: 100%;
-    z-index: 2;
-    background-size: cover;
-    background-position: -40px center, 0px center;
-    width: 45%;
-}
-.profile-desc{
-	margin-bottom: 70px;
-	padding-left: 80px;
-}
-.profile-desc h2{
-}
-.service-wrapper{
-	padding-left: 80px;
-}
-.service-inner{
-	float: left;
-	margin-right: 12px;
-	margin-bottom: 20px;
-	width: 48%;
-}
-.service-inner i{
-	font-size: 40px;
-	color: #F7237B;
-	float: left;
-}
-.service-box {
-	padding: 0px;
-	margin-left: 60px;
-	margin-top: -15px;
-}
-.service-box h3{
-	text-transform: uppercase;
-	margin-bottom: 16px;
-	font-size: 20px;
-	line-height: 24px;
-}
-.service-box p{
-	font-size: 16px;
-	line-height: 30px;
-}
-
-/*section-skills
-===============================================*/
-.skill-box{
-	margin-bottom: 40px;
-}
-.skill-box label{
-	text-transform: uppercase;
-	margin-bottom: 20px;
-	font-weight: 600;
-	color: #566366;
-}
-.progress {
-    height: 30px;
-    margin-bottom: 20px;
-    overflow: hidden;
-    background-color: #F2f2f1;
-    border-radius: 0px;
-    box-shadow: none;
-}
-.progress-bar {
-	box-shadow: none;
-	background-color: #F7237B;
-	text-align: right;
-	font-weight: 700;
-	font-size: 18px;
-	padding-right: 10px;
-	padding-top: 4px;
-}
-
-
 /*section-resume
 ==========================================*/
 
@@ -510,51 +405,16 @@ h2.title{
 }
 
 
-
-
-/*Section-testimonial 
-==================================================*/
-#section-testimonial{
-	background: #f2f2f1;
-	padding-bottom: 105px;
-}
-.carousel-indicators li {
-    display: inline-block;
-    width: 11px;
-    height: 11px;
-}
-.carousel-indicators {
-    bottom: -25px;
-}
-.carousel-indicators .active {
-    background-color: #F7237B;
-}
-.carousel-indicators li {
-    border-color: #F7237B;
-}
-
-
-#testimonial-carousel{
-	width: 63%;
-	margin: 0 auto;
-	margin-top: -10px;
-}
-#testimonial-carousel p{
-	color: #919191;
-	font-style: italic;
-	margin-bottom: 40px;
-}
-
-.client-name{
-	color: #566366;
-	text-transform: uppercase;
-	margin-bottom: 50px;
-}
-
-
 /*====================================================
 	section-portfolio
 ====================================================*/
+#section-portfolio {
+	background-color: black;
+}
+#section-portfolio p, #section-portfolio h2.heading-title {
+	color: white;
+}
+
 #section-portfolio
 .section-heading{
 	margin-bottom: 100px;
@@ -598,7 +458,7 @@ h2.title{
 	color: #fff;
 }
 .contact-left{
-	padding-top: 30px;
+	padding-top: 10px;
 }
 .contact-left p{
 	color: #919191;
@@ -624,28 +484,13 @@ h2.title{
 	
 }
 
-.contact-box{
-	margin-bottom: 40px;
-}
-.contact-box .form-group{
-	margin-bottom: 39px;
-}
-.contact-box label{
-	color: #fff;
-	margin-bottom: 20px;
-	font-size: 18px;
+.stan-contact-pic {
+	height: 200px;
+	background-color: grey;
 }
 
-.contact-box .form-control{
-	height: 50px;
-	border-radius: 0px;
-	background: #4b5456;
-	border: 0px;
-}
-.contact-form .btn-default{
-	
-	background: #191f21;
-	border: 0px;
+.stan-contact-pic p {
+	color: black;
 }
 
 
