@@ -255,38 +255,42 @@ h2.heading-title{
 
 #section-banner{
 	background: url("../images/voodoo_img/banner.jpg") ;
-	background-size: cover;
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
 }
+
 .banner-content{
-	padding: 300px 0px 300px 0px;
+	padding: 30px 0px 400px 0px;
 }
 
 h2.title{
 	font-size: 60px;
 	line-height:60px;
-	color: black;
+	color: #CEEEE3;
 	font-weight: 700;
 	text-transform: uppercase;
 }
 
 .line-top{
 	width: 930px;
-	color: #fff;
-	background: black;
+	color: #CEEEE3;
+	background: #CEEEE3;
 	height: 2px;
 	margin: 32px auto;
 }
 .line-btm{
 	width: 930px;
-	color: #fff;
-	background: black;
+	color: #CEEEE3;
+	background: #CEEEE3;
 	height: 2px;
 	margin: 32px auto;
 }
 .banner-content a.btn-default {
 	padding: 20px 36px!important;
-	color: black;
-	border-color: black;
+	color: #CEEEE3;
+	border-color: #CEEEE3;
 }
 
 
