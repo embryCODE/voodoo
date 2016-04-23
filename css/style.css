@@ -292,10 +292,10 @@ h2.heading-title{
 h2.title{
 	font-size: 60px;
 	line-height:60px;
-	color: #61ff8e;
+	color: white;
 	font-weight: 700;
 	text-transform: uppercase;
-	text-shadow:0px 0px 6px lightgray;
+	text-shadow:0px 0px 3px lightgray;
 }
 
 .line-top{
@@ -370,7 +370,7 @@ h2.title{
 	padding-top: 25px;
 }
 .navbar-brand span{
-	color: #F7237B;
+	color: #61ff8e;
 
 }
 
@@ -457,8 +457,12 @@ h2.title{
 #section-portfolio {
 	background-color: black;
 }
-#section-portfolio p, #section-portfolio h2.heading-title {
+#section-portfolio p{
 	color: white;
+}
+
+#section-portfolio h2.heading-title {
+	color: #61ff8e;
 }
 
 #section-portfolio
