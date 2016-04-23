@@ -249,16 +249,40 @@ h2.heading-title{
 	margin: 0 auto;
 }
 
+
+/*=============================================
+  Carousel
+================================================*/
+
+#myCarousel {
+	height: 640px;
+}
+
+
+
 /*=============================================
   Banner styles
 ================================================*/
 
+/*
 #section-banner{
 	background: url("../images/voodoo_img/banner.jpg") ;
 	background-color: black;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
+}
+*/
+
+#section-banner {
+	position: absolute;
+	left: 50%;
+	top: 0px;
+	margin: 0 auto;
+}
+
+#section-banner .container {
+	position: relative; left: -50%;
 }
 
 .banner-content{

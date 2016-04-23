@@ -51,7 +51,11 @@ jQuery(function($) {
  $("a[data-rel^='prettyPhoto']").prettyPhoto();
  
     
- 
+// background carousel
+
+$('.carousel').carousel({
+  interval: 4000
+})
 
 
 
