@@ -292,20 +292,20 @@ h2.heading-title{
 h2.title{
 	font-size: 60px;
 	line-height:60px;
-	color: #CEEEE3;
+	color: white;
 	font-weight: 700;
 	text-transform: uppercase;
 }
 
 .line-top{
-	width: 930px;
+	width: 895px;
 	color: #CEEEE3;
 	background: #CEEEE3;
 	height: 2px;
 	margin: 32px auto;
 }
 .line-btm{
-	width: 930px;
+	width: 895px;
 	color: #CEEEE3;
 	background: #CEEEE3;
 	height: 2px;
@@ -428,6 +428,22 @@ h2.title{
 	text-transform: capitalize;
 }
 
+#resume-details {
+	background: #15508D;
+}
+
+#resume-details h1, #resume-details h2, #resume-details h3 {
+	color: white;
+}
+/*
+.skills-section {
+	background: white;
+}
+.experience-section {
+	background: #f2f2f1;
+}
+*/
+
 
 /*====================================================
 	section-portfolio
@@ -477,6 +493,7 @@ h2.title{
 
 #section-contact{
 	background: #252e30;
+	padding-bottom: 20px;
 }
 #section-contact .heading-title{
 	color: #fff;
@@ -501,7 +518,7 @@ h2.title{
 }
 .contact-left ul li a{
 	color: #919191;
-	margin-left: 40px;
+	margin-left: 10px;
 }
 .contact-left ul li span{
 	color: #fff;
@@ -509,12 +526,18 @@ h2.title{
 }
 
 .stan-contact-pic {
-	height: 200px;
-	background-color: grey;
+	padding: 0;
+	position: relative;
+	top:-50px;
+    left:50px;
+}
+.stan-contact-pic img{
+	width: 100%;
 }
 
 .stan-contact-pic p {
-	color: black;
+	color: #CEEEE3;
+	font-size: .80em;
 }
 
 
@@ -523,17 +546,18 @@ h2.title{
 	section Footer
 	============================================================*/
 
-	#section-footer{
-		background: #191f21;
-		padding: 50px 0px;
-	}
-	#section-footer h4{
-		color: #485153;
-		text-transform: uppercase;
-		margin-bottom: 30px;
-	}
+#section-footer{
+	background: #191f21;
+	padding: 50px 0px;
+}
+#section-footer h4{
+	color: #485153;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
 
 .socail-link{}
+
 .socail-link a i{
 	background: #4b5456;
 	width: 35px;

@@ -67,6 +67,20 @@
 		left: 0%;
 	}
 	
+	.stan-contact-pic {
+		padding: 0;
+		position: inherit;
+	}
+	.stan-contact-pic img{
+		width: 100%;
+		max-width: 400px;
+	}
+	
+	.stan-contact-pic p {
+		color: #CEEEE3;
+		font-size: .80em;
+	}
+	
 }
 
 /* Extra Small Devices, Phones */ 
