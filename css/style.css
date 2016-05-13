@@ -369,8 +369,13 @@ h2.title{
 	line-height: 40px;
 	padding-top: 25px;
 }
-.navbar-brand span{
+
+#voo {
 	color: #61ff8e;
+}
+
+.navbar-brand span{
+	color: #F7237B;
 
 }
 
@@ -378,6 +383,21 @@ h2.title{
 	background: #f2f2f1;
 }
 
+.navbar-default .navbar-toggle {
+	background-color: black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #61ff8e;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: #F7237B;
+}
+
+.navbar-toggle.collapsed:focus {
+	background-color: black;
+}
 
 /*section-resume
 ==========================================*/
@@ -386,6 +406,7 @@ h2.title{
 	background: #f2f2f1;
 	position: relative;
 }
+
 #section-resume:after{
 	position: absolute;
 	content:"";
@@ -435,20 +456,16 @@ h2.title{
 }
 
 #resume-details {
-	background: #15508D;
+	background: #222CA1;
+}
+
+#resume-details p {
+	color: #c5c5c5;
 }
 
 #resume-details h1, #resume-details h2, #resume-details h3 {
 	color: white;
 }
-/*
-.skills-section {
-	background: white;
-}
-.experience-section {
-	background: #f2f2f1;
-}
-*/
 
 
 /*====================================================
