@@ -1,8 +1,8 @@
 /*
-	Template Name: 
+	Template Name:
 	Author: Themeturn
 	Author URI: http://themeforest.net/user/ThemeTurn
-	Description: 
+	Description:
 	Version: 1.0
 */
 
@@ -57,9 +57,9 @@
 
 @font-face {
 	font-family: 'MyriadPro-Regular';
-	src: url('fonts/MyriadPro-Regular.eot?') format('eot'), 
+	src: url('fonts/MyriadPro-Regular.eot?') format('eot'),
 	     url('fonts/MyriadPro-Regular.otf')  format('opentype'),
-	     url('fonts/MyriadPro-Regular.woff') format('woff'), 
+	     url('fonts/MyriadPro-Regular.woff') format('woff'),
 	     url('fonts/MyriadPro-Regular.ttf')  format('truetype'),
 	     url('fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
 }
@@ -146,7 +146,7 @@ ul,li{
 body, p{
 	/*font-family: 'MyriadPro-Regular', serif;*/
 	font-family: 'Roboto', sans-serif;
-	font-weight: 400; 
+	font-weight: 400;
 	font-size: 18px;
 	line-height: 30px;
 }
@@ -372,11 +372,11 @@ h2.title{
 
 #voo {
 	color: #61ff8e;
+	margin-right: -3px;
 }
 
 .navbar-brand span{
-	color: #F7237B;
-
+	color: #5664FF;
 }
 
 .sticky-wrapper {
@@ -514,6 +514,14 @@ h2.title{
 	opacity: 1;
 }
 
+/*==========================================================
+	section Press
+	============================================================*/
+
+.press a {
+	font-size: .9em;
+}
+
 
 /*SECTION contact
 =================================================*/
@@ -549,7 +557,7 @@ h2.title{
 }
 .contact-left ul li span{
 	color: #fff;
-	
+
 }
 
 .stan-contact-pic {
