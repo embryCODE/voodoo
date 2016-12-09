@@ -455,15 +455,16 @@ h2.title{
 	text-transform: capitalize;
 }
 
-#resume-details {
+#section-experience {
 	background: #222CA1;
 }
 
-#resume-details p {
+#section-experience {
 	color: #c5c5c5;
+	font-size: .9em;
 }
 
-#resume-details h1, #resume-details h2, #resume-details h3 {
+#section-experience h1, #section-experience h2, #section-experience h3 {
 	color: white;
 }
 
@@ -478,7 +479,7 @@ h2.title{
 	color: white;
 }
 
-#section-portfolio h2.heading-title {
+#section-experience h2.heading-title {
 	color: #61ff8e;
 }
 
@@ -563,8 +564,8 @@ h2.title{
 .stan-contact-pic {
 	padding: 0;
 	position: relative;
-	top:-50px;
-    left:50px;
+	top:-70px;
+    left:70px;
 }
 .stan-contact-pic img{
 	width: 100%;
