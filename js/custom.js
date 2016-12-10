@@ -27,34 +27,34 @@
 jQuery(function($) {
   "use strict";
 
-   $('.navigation').singlePageNav({
-        currentClass: 'active',
-        changeHash: true,
-        scrollSpeed: 750,
-        offset: 0,
-        filter: ':not(.external)',
-        easing: 'swing',
+  $('.navigation').singlePageNav({
+    currentClass: 'active',
+    changeHash: true,
+    scrollSpeed: 750,
+    offset: 0,
+    filter: ':not(.external)',
+    easing: 'swing',
 
-    });
+  });
 
-    $.noConflict();
-     $('.nav a').on('click', function(){
-        if($('.navbar-toggle').css('display') !='none'){
-            $(".navbar-toggle").trigger( "click" );
-        }
-    });
-
-
-
-// prettyphoto
-
- $("a[data-rel^='prettyPhoto']").prettyPhoto();
+  $.noConflict();
+  $('.nav a').on('click', function() {
+    if ($('.navbar-toggle').css('display') != 'none') {
+      $(".navbar-toggle").trigger("click");
+    }
+  });
 
 
-// background carousel
 
-$('.carousel').carousel({
-  interval: 4000
-});
+  // prettyphoto
+
+  $("a[data-rel^='prettyPhoto']").prettyPhoto();
+
+
+  // background carousel
+
+  $('.carousel').carousel({
+    interval: 4000
+  });
 
 });
