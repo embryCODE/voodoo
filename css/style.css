@@ -617,6 +617,10 @@ h2.title{
 	section Gallery
 	============================================================*/
 
+.gallery-carousel {
+	padding: 20px 0 10px 0;
+}
+
 .gallery-carousel img {
-	max-width: 300px;
+	max-width: 100%;
 }
