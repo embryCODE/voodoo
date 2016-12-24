@@ -14,7 +14,7 @@
 /* Small Devices, Tablets */
 @media (min-width : 768px) and (max-width: 991px) {
 	.banner-content {
-	    padding: 65px 0px;
+	    padding: 40px 0px;
 	}
 	h2.title{
 		font-size: 40px;
@@ -54,19 +54,19 @@
 	.navbar-brand {
 	    padding-top: 5px;
 	}
-	
+
 	#section-banner {
 		position: absolute;
 		left: 0;
 		top: 0;
 		width: 100%;
 	}
-	
+
 	#section-banner .container {
-		position: relative; 
+		position: relative;
 		left: 0%;
 	}
-	
+
 	.stan-contact-pic {
 		padding: 0;
 		position: inherit;
@@ -75,29 +75,29 @@
 		width: 100%;
 		max-width: 400px;
 	}
-	
+
 	.stan-contact-pic p {
 		color: #CEEEE3;
 		font-size: .80em;
 	}
-	
+
 }
 
-/* Extra Small Devices, Phones */ 
+/* Extra Small Devices, Phones */
 @media (max-width : 479px) {
 
-		
+
 
 }
 
-/* Custom, iPhone Retina */ 
+/* Custom, iPhone Retina */
 @media (min-width : 320px) and (max-width: 478px)  {
 	.navbar-default .navbar-nav > li > a {
     	padding: 15px 20px;
 	}
 
 	.banner-content {
-	    padding: 55px 0px;
+	    padding: 40px 0px;
 	}
 
 	.navbar-brand {

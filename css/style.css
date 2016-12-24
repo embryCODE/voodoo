@@ -300,22 +300,22 @@ h2.title{
 
 .line-top{
 	max-width: 895px;
-	color: #61ff8e;
-	background: #61ff8e;
+	color: #66cc33;
+	background: #66cc33;
 	height: 2px;
 	margin: 32px auto;
 }
 .line-btm{
 	max-width: 895px;
-	color: #61ff8e;
-	background: #61ff8e;
+	color: #66cc33;
+	background: #66cc33;
 	height: 2px;
 	margin: 32px auto;
 }
 .banner-content a.btn-default {
 	padding: 20px 36px!important;
-	color: #61ff8e;
-	border-color: #61ff8e;
+	color: #66cc33;
+	border-color: #66cc33;
 }
 
 
@@ -371,7 +371,7 @@ h2.title{
 }
 
 #voo {
-	color: #61ff8e;
+	color: #66cc33;
 	margin-right: -3px;
 }
 
@@ -388,7 +388,7 @@ h2.title{
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #61ff8e;
+    background-color: #66cc33;
 }
 
 .navbar-default .navbar-toggle:hover .icon-bar {
@@ -456,7 +456,7 @@ h2.title{
 }
 
 #section-experience {
-	background: #222CA1;
+	background: #333399;
 }
 
 #section-experience {
@@ -464,7 +464,8 @@ h2.title{
 	font-size: .9em;
 }
 #section-experience h2 {
-		color: #61ff8e;
+		color: #66cc33;
+		text-align: center;
 }
 
 #section-experience h3,
@@ -484,7 +485,7 @@ h2.title{
 }
 
 #section-portfolio h2.heading-title {
-	color: #61ff8e;
+	color: #66cc33;
 }
 
 #section-portfolio
@@ -527,6 +528,10 @@ h2.title{
 	font-size: .9em;
 }
 
+.press h2 {
+	text-align: center;
+}
+
 
 /*SECTION contact
 =================================================*/
@@ -562,7 +567,10 @@ h2.title{
 }
 .contact-left ul li span{
 	color: #fff;
+}
 
+.contact-left a:hover {
+	color: #F7237B;
 }
 
 .stan-contact-pic {
@@ -618,7 +626,27 @@ h2.title{
 	============================================================*/
 
 
-/* LOGO */
+/* LOGOS */
+
+.title {
+	margin-top: 10px;
+}
+
+.line-top {
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+.line-btm {
+	margin: 15px auto;
+}
+
+.heading-logo {
+	padding: 10px;
+	width: 450px;
+	max-width: 80%;
+	margin: auto;
+}
 
 .logo {
 	max-width: 120px;
