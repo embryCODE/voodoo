@@ -614,13 +614,31 @@ h2.title{
 
 
 /*==========================================================
-	section Gallery
+	Added styles
 	============================================================*/
 
+
+/* LOGO */
+
+.logo {
+	max-width: 120px;
+	position: relative;
+	top: 3px;
+}
+
+
+
+/* GALLERY SECTION */
+
 .gallery-carousel {
-	padding: 20px 0 10px 0;
+	padding: 20px 0 60px 0;
 }
 
 .gallery-carousel img {
 	max-width: 100%;
+}
+
+#section-portfolio .heading-title{
+	color: #F7237B;
+	margin: 10px 0 10px 0;
 }
