@@ -636,6 +636,7 @@ h2.title{
 
 .gallery-carousel img {
 	max-width: 100%;
+	cursor: pointer;
 }
 
 #section-portfolio .heading-title{
