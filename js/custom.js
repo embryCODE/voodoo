@@ -81,6 +81,4 @@ jQuery(function($) {
     itemSelector: 'img'
   });
 
-
-
 });
