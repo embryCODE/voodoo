@@ -273,16 +273,18 @@ h2.heading-title{
 	background-position: center;
 }
 */
-
+/* */
 #section-banner {
 	position: absolute;
-	left: 50%;
 	top: 0px;
 	margin: 0 auto;
+	width: 100%;
 }
 
 #section-banner .container {
-	position: relative; left: -50%;
+	position: relative;
+	margin: 0px auto;
+	
 }
 
 .banner-content{
